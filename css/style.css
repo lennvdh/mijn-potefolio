@@ -1,0 +1,75 @@
+.navbar{
+    background-color: rgb(223, 254, 223) !important;
+}
+
+body{
+    background-color: rgb(223, 254, 223);
+}
+
+div.sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: normal;
+}
+
+img.foto{
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+p.aboutme {
+    text-align: center;
+    text-size-adjust: 14;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: normal;
+}
+
+.projectkader {
+    background-color: rgb(66, 57, 57, 0.5);
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.image-effect img {
+  transition: box-shadow 0.3s ease;
+}
+
+.image-effect:hover img {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.fotokader {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    font-size: 12px;
+}
+
+#map {
+    height: 500px;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'normal';
+    src: url('./fonts/Oswald.zip');
+}
