@@ -36,7 +36,13 @@ p.aboutme {
     margin-right: 5%;
     margin-bottom: 5%;
 }
+.image-effect img {
+  transition: box-shadow 0.3s ease;
+}
 
+.image-effect:hover img {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
 .fotokader {
     border: 2px solid #ccc;
     border-radius: 8px;
@@ -48,6 +54,16 @@ h1 {
     text-align: center;
 }
 
+footer {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    font-size: 12px;
+}
+
+#map {
+    height: 500px;
+}
 
 
 
